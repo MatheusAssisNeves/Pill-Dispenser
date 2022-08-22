@@ -1,8 +1,10 @@
 # Pill-Dispenser
 An Automatic Pill Dispenser for Arduino
 ## Features
-* 
-
+* Real Time Clock with adjustable time
+* Dispense hours stored in EEPROM to avoid desconfiguration after Arduino power lost
+* Intuitive user interface for configuration
+## Arduino Libraries
 ## Components
 * Arduino Uno r3
 * Display LCD 2004 + i2c Module
@@ -18,7 +20,16 @@ An Automatic Pill Dispenser for Arduino
 ### Circuit Diagram
 <img src="schematics/circuit_diagram.png" alt="Circuit Diagram" width="400"/>
 
+## Prototype
+### Images
+<img src="https://user-images.githubusercontent.com/20825228/185847552-56fef076-4381-4e1c-976f-f75c66a004c1.jpg" alt="photo1" width="400"/>
+<img src="https://user-images.githubusercontent.com/20825228/185847560-5e4a6b42-3849-4e95-9c6d-f27c7fe3c86d.jpg" alt="photo2" width="400"/>
+<img src="https://user-images.githubusercontent.com/20825228/185847571-dc9ce570-b332-4ca7-81bd-051407347eee.jpg" alt="photo3" width="400"/>
+
+### Demonstration
+
+https://user-images.githubusercontent.com/20825228/185848761-0e6dda60-1d55-438b-9132-2dad3d6754b3.mp4
 
 
-https://user-images.githubusercontent.com/20825228/185841388-38a482e4-7815-486f-ad40-25cf9dfbeec0.mp4
+https://user-images.githubusercontent.com/20825228/185848781-a2c4229f-09a3-4b9a-b581-a91163f0bdb1.mp4
 

@@ -1,10 +1,17 @@
 # Pill-Dispenser
-An Automatic Pill Dispenser for Arduino
+An automatic pill dispenser for Arduino
 ## Features
 * Real Time Clock with adjustable time
-* Dispense hours stored in EEPROM to avoid desconfiguration after Arduino power lost
-* Intuitive user interface for configuration
+* Dispense hours stored in EEPROM to avoid loss after Arduino power lost
+* Intuitive user interface for configuration using only buttons and an LCD Display
+* Up to 6 dispense hours per day
+* Buzzer for alerting the user
 ## Arduino Libraries
+* LiquidCrystal I2C by Marco Schwartz v1.1.2
+* RTClib by Adafruit v2.1.1
+* Stepper by Arduino v 1.1.3
+* Wire by Arduino
+* EEPROM by Arduino
 ## Components
 * Arduino Uno r3
 * Display LCD 2004 + i2c Module
@@ -13,6 +20,7 @@ An Automatic Pill Dispenser for Arduino
 * Passive buzzer module mh-fmd
 * MB102 Breadboard Power Supply Module 3.3V 5V
 * Power Supply 12v 2A
+
 
 ## Schematics
 ### Breadboard
